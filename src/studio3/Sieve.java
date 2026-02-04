@@ -30,13 +30,19 @@ array[0]=0;
 
 
 }
+int count = 0;
 for(int i=0;i<n;i++){
     if(array[i] != 0){
     System.out.println(array[i]);
+    count++;
 }
 
 
+
 }
+System.out.println("There are " +count+ " primes less than or equal to " +n+ ".");
+
+
 
 }
 }
